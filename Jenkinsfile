@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Cloning Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/imaneelbarchi/TP3_devops'
+                git branch: 'main', url: 'https://github.com/Chaimae-Smihrou/devops'
             }
         }
         stage('Building image') {
@@ -41,3 +41,4 @@ pipeline {
             }
     }
 }
+
